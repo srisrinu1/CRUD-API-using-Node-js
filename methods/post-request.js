@@ -4,7 +4,7 @@ const bodyParser=require('../util/body-parser');
 const writeFile=require('../util/write-file');
 const filterDuplicate=require('../util/filter-duplicate');
 module.exports=async(request,response)=>{
- if(request.url==="/api/songs"){
+ if(request.url==="/api/songs/"){
   try{
 //    let file=path.join(__dirname,'..');
 //    console.log(file);
